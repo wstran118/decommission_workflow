@@ -1,0 +1,27 @@
+[
+    {
+        "server_id": "server01",
+        "rack_position": "1U",
+        "status": "active",
+        "ip_address": "192.168.1.101",
+        "data_path": "/data/app_data",
+        "services": ["nginx", "msql"]
+    },
+     {
+        "server_id": "server02",
+        "rack_position": "2U",
+        "status": "active",
+        "ip_address": "192.168.1.102",
+        "data_path": "/data/app_data",
+        "services": ["nginx"]
+    },
+     {
+        "server_id": "server03",
+        "rack_position": "3U",
+        "status": "active",
+        "ip_address": "192.168.1.103",
+        "data_path": "/data/app_data",
+        "services": ["msql"]
+    }
+    
+]
